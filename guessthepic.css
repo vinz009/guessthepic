@@ -1,0 +1,68 @@
+
+
+* {box-sizing: border-box;}
+
+body {background: #f0f0f5;}
+
+      .board { 
+         position: relative;
+         //border: solid yellow 2px;
+         }
+
+         #messageBoard{
+            margin: auto;
+            //border: solid green 2px;
+            text-align: center;
+            font-size: 40px;
+            width:300px;
+            height:100px;
+            padding:10px;
+            background:  #00ffff;
+           // background-clip: content-box;
+            }
+
+       
+
+
+         .container{
+           // border: solid green 2px;
+            width:100%;
+            height: auto;}
+        
+            table {
+                width: auto;
+                height: auto;
+                margin: auto;
+                padding:10px;
+                }
+            td {
+                font-size:80px;
+                font-weight: bold;
+                text-align: center;
+                padding:5px;
+                width:150px;
+                height:150px;
+                }
+
+           td[class^="cell"] { 
+                
+                background: #00e6ac;
+                border-radius: 10px;
+                transition: 2s;
+                }   
+
+.miss {background:url("error.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        }
+
+.hit {background:url("bebongpic.jpg");
+      background-repeat: no-repeat;
+      background-size: contain;
+        }
+
+
+
+
+
